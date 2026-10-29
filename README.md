@@ -1,11 +1,11 @@
 # Bot-ticket releases
 
-Repository สำหรับเผยแพร่แพตช์ที่ลงลายเซ็นของ Bot-ticket
+A repository for distributing signed patches for Bot-ticket.
 
-ดาวน์โหลดจาก [Releases](https://github.com/Depayit/Bot-ticket/releases)
+Download from [Releases](https://github.com/Depayit/Bot-ticket/releases)
 
-แพตช์ประกอบด้วย signed manifest และ SHA-256; แอปตรวจด้วย update_public.pem ที่ได้รับจากผู้ให้บริการ
+Each patch includes a signed manifest and an SHA-256 hash; the application verifies these using the `update_public.pem` file provided by the developer.
 
-Metadata สำหรับระบบอัปเดต: https://github.com/Depayit/Bot-ticket/releases/latest/download/version.json
+Metadata for the update system: https://github.com/Depayit/Bot-ticket/releases/latest/download/version.json
 
-ข้อมูลผู้ใช้และ private signing keys ไม่รวมอยู่ในชุดเผยแพร่
+User data and private signing keys are not included in the release packages.
